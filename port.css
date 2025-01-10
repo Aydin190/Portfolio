@@ -1,0 +1,83 @@
+*{
+    text-decoration: none;
+    /* background: #1f242d;
+    color: #fff; */  
+}
+body{
+    background: #1f242d;
+    color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+.navbar a{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.logo:hover{
+    color: #0ef;
+}
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 2rem;
+    /* padding: 5rem 9% 5rem 2rem; */
+    /* This is a shorthand property of giving padding to all directions using clockwise (top, right, down, left) direction */
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-image img{
+    width: 50vw;
+    margin-left: 5rem;
+
+}
+
+span{
+    color: #0ef;
+}
+.home-content h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.home-content h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 0.3;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #323946;
+    padding: 1rem 5%;
+}
+
+
+
+.footer-text{
+    font-size: 1.5rem;
+}
+
+.ehobby{
+    color: #fff;
+}

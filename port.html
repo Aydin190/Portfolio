@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aydin</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    
+<!-- We are going to create a nav bar (navigation bar) without using the unordered list (ul) and list items (li) 
+ We are going to make it using the header tag, the nav tag and the anchor tags.
+-->
+
+<header class="header">
+    <!-- We are making the logo of the portfolio, using the anchor tags -->
+     <a class="logo" href="#">Portfolio</a>
+     <!-- Now we are going to make the nav items on the navigation bar using the anchor and nav tags only. -->
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects
+        <a href="#contact">Contact</a>
+        </a>
+      </nav>
+</header>
+
+<!-- Home Section. We use section tags to differenciate different parts of a website -->
+ <section class="home" id="home">
+    <!-- The left side of the home section will have the home content -->
+     <div class="home-content">
+        <h3>Hello, it's me</h3>
+        <h1>Aydin</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        
+        
+     </div>
+     <!-- The right side of the home section will obtain an image -->
+      <div class="home-image">
+        <img src="portfolio1.jpg" alt="">
+      </div>
+ </section>
+
+ <!-- Footer Section- We are going to make the footer section using the footer tag. -->
+  <footer class="footer">
+<div class="footer-text">
+  <p>Copyright ©;2025 by Aydin |<a href="https://ehobby.in/" class="ehobby"> via EHOBBY Classes</a></p>
+</div>
+  </footer>
+
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+  const aydin=new Typed('.multiple-text',{
+    strings:['gentle person', 'smart kid', 'full of trust', 'coder'],
+    typeSpeed: 100, 
+    loop:true, 
+    backSpeed: 100,
+    backDelay: 1000,
+  })
+ </script>
+
+</body>
+</html>
+
+
+<!-- H1, h2, h3 up to h6 are HEADINGS not headers. -->
